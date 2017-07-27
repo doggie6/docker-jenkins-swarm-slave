@@ -15,3 +15,7 @@ services:
       - volume_jenkins-agent:/home/jenkins/
       - volume_jenkins-agent_maven:/opt/maven/
     restart: always
+
+volumes:
+  volume_jenkins-agent: {}
+  volume_jenkins-agent_maven: {}
